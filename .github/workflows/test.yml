@@ -31,5 +31,5 @@ jobs:
 
       - name: Build and push docker image
         run: | 
-          docker build -t AxelLofberg/test .
-          docker push AxelLofberg/test
+          docker build -t axellofberg/test .
+          docker push axellofberg/test
